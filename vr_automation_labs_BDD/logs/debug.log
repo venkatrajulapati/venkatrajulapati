@@ -409,3 +409,23 @@
 2021-11-05 16:02:51,723  INFO [main] verify Login Functionality:20 - UserName field value entered as : ada
 2021-11-05 16:02:51,868  INFO [main] verify Login Functionality:20 - Password field value entered as : add
 2021-11-05 16:02:52,043  INFO [main] verify Login Functionality:86 - clicked on element : Login
+2021-11-05 16:07:46,754  INFO [main] verify Login with valid credentials:28 - Initiate Webdriver .......
+2021-11-05 16:08:06,180  INFO [main] verify Login with valid credentials:86 - clicked on element : Login
+2021-11-05 16:08:16,455  INFO [main] verify Login with valid credentials:20 - UserName field value entered as : venkata.rajulapati@gmail.com
+2021-11-05 16:08:16,566  INFO [main] verify Login with valid credentials:20 - Password field value entered as : 05jun1984
+2021-11-05 16:08:16,670  INFO [main] verify Login with valid credentials:86 - clicked on element : Login
+2021-11-05 16:08:19,928  INFO [main] verify Login Functionality:28 - Initiate Webdriver .......
+2021-11-05 16:08:37,946  INFO [main] verify Login Functionality:86 - clicked on element : Login
+2021-11-05 16:08:48,174  INFO [main] verify Login Functionality:20 - UserName field value entered as : venkata.rajulapati@gmail.com
+2021-11-05 16:08:48,280  INFO [main] verify Login Functionality:20 - Password field value entered as : 05jun1984
+2021-11-05 16:08:48,390  INFO [main] verify Login Functionality:86 - clicked on element : Login
+2021-11-05 16:08:49,214  INFO [main] verify Login Functionality:28 - Initiate Webdriver .......
+2021-11-05 16:09:09,291  INFO [main] verify Login Functionality:86 - clicked on element : Login
+2021-11-05 16:09:19,489  INFO [main] verify Login Functionality:20 - UserName field value entered as : addsds
+2021-11-05 16:09:19,589  INFO [main] verify Login Functionality:20 - Password field value entered as : ddsf
+2021-11-05 16:09:19,700  INFO [main] verify Login Functionality:86 - clicked on element : Login
+2021-11-05 16:09:22,006  INFO [main] verify Login Functionality:28 - Initiate Webdriver .......
+2021-11-05 16:09:34,657  INFO [main] verify Login Functionality:86 - clicked on element : Login
+2021-11-05 16:09:44,765  INFO [main] verify Login Functionality:20 - UserName field value entered as : ada
+2021-11-05 16:09:44,863  INFO [main] verify Login Functionality:20 - Password field value entered as : add
+2021-11-05 16:09:44,973  INFO [main] verify Login Functionality:86 - clicked on element : Login

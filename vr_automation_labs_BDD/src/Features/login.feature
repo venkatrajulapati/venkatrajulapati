@@ -33,7 +33,7 @@ Feature: Verify Login Functionality
     When CRM Home page is Loaded
     Then Enter Username and Password and click on Login <DataRow>
     
-  Examples:s
+  Examples:
 			|DataRow|
     	|1|
     	|2|
