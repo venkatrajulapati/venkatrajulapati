@@ -3,13 +3,10 @@
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -24,8 +21,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.app.libs.common.Excelutils;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+//import com.relevantcodes.extentreports.ExtentReports;
+//import com.relevantcodes.extentreports.ExtentTest;
 
 
 
@@ -36,8 +33,8 @@ public class test_base {
 	public static Logger log;
 	public static Properties prop = null;
 	public static Properties envProp = null;
-	public static ExtentReports report = new ExtentReports("./Results/TestResults.html");
-	public static ExtentTest test;
+	//public static ExtentReports report = new ExtentReports("./Results/TestResults.html");
+	//public static ExtentTest test;
 	public static String tcname;
 	public static String currentDirectory = System.getProperty("user.dir");
 	public static List<Map<String,String>> testData = null;

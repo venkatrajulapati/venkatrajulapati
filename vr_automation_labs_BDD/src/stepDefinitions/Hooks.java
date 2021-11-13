@@ -22,7 +22,7 @@ public class Hooks extends test_base {
 	@Before
 	public static void initialize(Scenario scenario) {
 		tcname = scenario.getName();
-		test = report.startTest(tcname);
+		//test = report.startTest(tcname);
 		log= Logger.getLogger(tcname);
 		
 		log.info("Initiate Webdriver .......");
@@ -40,8 +40,8 @@ public class Hooks extends test_base {
 			e.printStackTrace();
 		}
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
-			//System.setProperty("webdriver.chrome.driver", "./server/chromedriver.exe");
-			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "./server/chromedriver.exe");
+			//WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			//options.setPageLoadStrategy(PageLoadStrategy.NONE);
 			options.addArguments("--start-maximized");
@@ -62,8 +62,8 @@ public class Hooks extends test_base {
 	@After
 	public void cleanup() {
 		driver.quit();
-		report.endTest(test);
-		report.flush();
+		//report.endTest(test);
+		//report.flush();
 	}
 
 }
